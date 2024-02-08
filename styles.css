@@ -1,0 +1,14 @@
+/* Adicione a classe de animação */
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Adicione a classe de animação para a rotação */
+.rotate {
+  animation: rotateAnimation 1s linear infinite;
+}

@@ -10,4 +10,3 @@
       $('.navbar-collapse').collapse('hide');
     });
   });
-
